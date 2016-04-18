@@ -46,12 +46,6 @@ prompt.get(["city"], function(err, result) {
 
             console.log("Location of ISS : Latitude: " + latitude1.toFixed(2) + "Longitude: " + longitude1.toFixed(2));
             console.log("Distance between ISS and City : " + d.toFixed(0) + " meters");
-
-
         })
-
-
-
     });
-
 })
